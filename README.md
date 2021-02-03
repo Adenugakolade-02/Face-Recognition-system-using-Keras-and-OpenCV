@@ -11,6 +11,6 @@ The process involves:
 6. The real-time prediction was done using haarcascade_frontalface_default.xml and OpenCV. 
 7. I used frontalface haarcascade to dectect images in my camera frame
 8. Used OpenCV to: 
-a. Open and capture images from my camera frame, 
-b. Resize and change the colour frame of the image gotten from haarcascade_frontalface_default.xml
-c. Draw a rectangle around the image detected from my camera and display the prediction gotten from my model with its accuracy.
+# a. Open and capture images from my camera frame, 
+# b. Resize and change the colour frame of the image gotten from haarcascade_frontalface_default.xml
+# c. Draw a rectangle around the image detected from my camera and display the prediction gotten from my model with its accuracy.
