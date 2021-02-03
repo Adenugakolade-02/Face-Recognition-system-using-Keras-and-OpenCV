@@ -7,7 +7,7 @@ The process involves:
 2. I Created a train set containing 305 images and test set containing 73 images.
 3. I Fed the train set into the InceptionResNetV2 model and used the imagenet weights.
 4. I used ImageDataGenerator to generate random augumented image batches of the train set so as to prevent overfitting
-5. I trained a model using 100 epochs.
+5. I trained the model using 100 epochs.
 6. I Achieved an average accuracy of 0.6 on test and 0.9 on the train set.
 7. The real-time prediction was done using haarcascade_frontalface_default.xml and OpenCV. 
 8. I used frontalface haarcascade to dectect images in my camera frame
